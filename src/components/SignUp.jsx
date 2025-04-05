@@ -14,7 +14,7 @@ function Signup() {
     e.preventDefault();
 
     axios
-      .post("http://localhost:3000/create", {
+      .post("https://beauty-services-mern-server.onrender.com/create", {
         username,
         email,
         password,
