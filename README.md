@@ -57,7 +57,7 @@ npm run dev
 
 ## 🔗 Live Demo
 
-- UI Live Link (Deployed via Netlify): [View Application](https://your-deployed-ui-link.com)
+- UI Live Link (Deployed via Netlify): [View Application](https://glam-on-go-beauty-services-mern-app.netlify.app/)
 
 ---
 
@@ -69,7 +69,7 @@ npm run dev
 
 ## 🙋‍♀️ Author
 
-[@nandhinigurumoorthy](https://github.com/nandhinigurumoorthy)
+[@nandhinigurumoorthy](https://github.com/nandhinigurumoorthyy)
 
 ---
 
