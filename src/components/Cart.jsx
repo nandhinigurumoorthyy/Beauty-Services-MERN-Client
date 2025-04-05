@@ -158,7 +158,7 @@ const Cart = ({ cart, setCart, handleRemoveClick }) => {
                                 </h1>
 
                                 {/* Price */}
-                                <p className="text-2xl font-semibold">₹ {item.priceRange}</p>
+                                <p className="text-2xl font-semibold">₹{item.priceRange}</p>
 
                                 {/* Remove Button */}
                                 <button
