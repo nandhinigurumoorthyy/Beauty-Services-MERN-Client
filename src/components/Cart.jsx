@@ -93,7 +93,7 @@ const Cart = ({ cart, setCart, handleRemoveClick }) => {
                 price: price
             };
 
-            const response = await axios.post("http://localhost:3000/api/bookings", bookingDetails);
+            const response = await axios.post("https://beauty-services-mern-server.onrender.com/api/bookings", bookingDetails);
             alert("Booking Confirmed!🥰 Sit back and relax — we’ll be at your doorstep soon.❤️");
             console.log("Booking Response:", response.data);
             console.log("Booking Details:", bookingDetails)
