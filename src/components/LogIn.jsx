@@ -15,7 +15,7 @@ const LogIn = () => {
     console.log("Form data being sent:", { email, password });
 
     axios
-    .post("http://localhost:3000/login", { email, password })
+    .post("https://beauty-services-mern-server.onrender.com/login", { email, password })
     .then((res) => {
       console.log("Login response:", res);
   
