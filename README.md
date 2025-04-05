@@ -57,13 +57,13 @@ npm run dev
 
 ## 🔗 Live Demo
 
-- UI Live Link: [View Application](https://your-deployed-ui-link.com)
+- UI Live Link (Deployed via Netlify): [View Application](https://your-deployed-ui-link.com)
 
 ---
 
 ## 🛠️ Backend Repository
 
-- Backend GitHub: [Beauty-Services-MERN-Server](https://github.com/yourusername/Beauty-Services-MERN-Server)
+- Backend GitHub: [Beauty-Services-MERN-Server](https://github.com/nandhinigurumoorthyy/Beauty-Services-MERN-Server)
 
 ---
 
