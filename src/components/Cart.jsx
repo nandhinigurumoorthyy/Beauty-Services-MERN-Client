@@ -200,8 +200,11 @@ const Cart = ({ cart, setCart, handleRemoveClick }) => {
                                 <form onSubmit={handleSubmit} className="space-y-4">
                                     <h5>Hello {username} 👋, Kindly fill in your details...</h5>
                                     <input type="text" name="address" placeholder="Address" value={bookingData.address} onChange={handleInputChange} required className="w-full p-2 border border-gray-300 rounded-md" />
-                                    <input type="tel" name="phone" placeholder="Phone Number" value={bookingData.phone} onChange={handleInputChange} required className="w-full p-2 border border-gray-300 rounded-md" />
-                                    <input type="number" name="age" placeholder="Age" value={bookingData.age} onChange={handleInputChange} required className="w-full p-2 border border-gray-300 rounded-md" />
+                                    <input   pattern="[0-9]{10}"
+  minLength={10}
+  maxLength={10} type="tel" name="phone" placeholder="9123456789" value={bookingData.phone} onChange={handleInputChange} required className="w-full p-2 border border-gray-300 rounded-md" />
+                                    <input   min={1}
+  max={120} type="number" name="age" placeholder="Age" value={bookingData.age} onChange={handleInputChange} required className="w-full p-2 border border-gray-300 rounded-md" />
                                     <select name="gender" value={bookingData.gender} onChange={handleInputChange} className="w-full p-2 border border-gray-300 rounded-md">
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
