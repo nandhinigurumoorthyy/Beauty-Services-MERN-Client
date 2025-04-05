@@ -30,7 +30,7 @@ const HomeContent = () => {
   return (
     <>
    <section className="w-full pt-10 px-8 md:px-12 lg:px-16 ">
-  <div className="relative z-10 min-h-screen flex flex-col-reverse md:flex-row items-center justify-center">
+  <div className="relative z-10 h-screen flex flex-col-reverse md:flex-row items-center justify-center">
     
     {/* 🔹 Text Content */}
     <motion.div
