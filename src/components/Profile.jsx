@@ -30,7 +30,7 @@ const Profile = () => {
     //cancel booking
     const handleDeleteBooking = async (bookingId) => {
         try {
-            await axios.delete(`http://localhost:3000/api/cancelbookings/${bookingId}`);
+            await axios.delete(`https://beauty-services-mern-server.onrender.com/api/cancelbookings/${bookingId}`);
             setBookings((prev) => prev.filter((b) => b._id !== bookingId));
             alert("Your booking has been cancelled. We’re here when you’re ready to pamper yourself again!!❤️");
         } catch (error) {
@@ -44,7 +44,7 @@ const Profile = () => {
             setLoading(true);
             try {
                 const bookingsResponse = await axios.get(
-                    `http://localhost:3000/api/bookings/${userid}`
+                    `https://beauty-services-mern-server.onrender.com/api/bookings/${userid}`
                 );
                 setBookings(bookingsResponse.data);
             } catch (error) {
