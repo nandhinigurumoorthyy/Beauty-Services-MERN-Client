@@ -59,6 +59,8 @@ npm run dev
 
 - UI Live Link: [View Application](https://your-deployed-ui-link.com)
 
+---
+
 ## 🛠️ Backend Repository
 
 - Backend GitHub: [Beauty-Services-MERN-Server](https://github.com/yourusername/Beauty-Services-MERN-Server)
