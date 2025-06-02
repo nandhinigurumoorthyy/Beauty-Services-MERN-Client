@@ -63,8 +63,9 @@ npm run dev
 
 ## 🛠️ Backend Repository
 
-- Backend GitHub: [Beauty-Services-MERN-Server](https://github.com/nandhinigurumoorthyy/Beauty-Services-MERN-Server)
-
+* **Backend GitHub**: [Beauty-Services-MERN-Server](https://github.com/nandhinigurumoorthyy/Beauty-Services-MERN-Server)
+* 🌐 **Live Backend API**: [https://beauty-services-mern-server.onrender.com](https://beauty-services-mern-server.onrender.com)
+  
 ---
 
 ## 🙋‍♀️ Author
